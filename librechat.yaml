@@ -86,7 +86,7 @@ endpoints:
       modelDisplayLabel: 'groq'
 
     - name: "cohere"
-      apiKey: "0QP9bwCYONEdfhdY25Wdh8A2vI7Bkl8usEdSkfUd"
+      apiKey: "${COHERE_API_KEY}"
       baseURL: "https://api.cohere.ai/v1"
       models:
         default: ["command-r","command-r-plus","command-light","command-light-nightly","command","command-nightly"]
